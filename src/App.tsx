@@ -29,7 +29,7 @@ const App = () => {
             <ChevronDown size={18} />
           </button>
         </div>
-        <div className="grid gap-5 grid-cols-[repeat(auto-fill,_minmax(360px,_1fr))]">
+        <div className="grid gap-5 sm:grid-cols-[repeat(auto-fill,_minmax(360px,_1fr))]">
           {coinData.map((coin, index) => (
             <div
               key={index}
