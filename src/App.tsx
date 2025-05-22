@@ -22,7 +22,9 @@ const App = () => {
     <div className="size-full min-h-svh sm:p-8 p-4 bg-gray-50">
       <div className="space-y-5 md:px-[5%]">
         <div className="flex gap-4 items-center justify-between">
-          <h2 className="subtitle text-2xl font-semibold">Coin Balances</h2>
+          <h2 className="subtitle sm:text-2xl text-xl font-semibold">
+            Coin Balances
+          </h2>
           <button className="flex items-center justify-center text-sm gap-1.5 border bg-white text-black rounded-sm px-3 py-2">
             <RefreshCw size={16} />
             <span>Refresh</span>
